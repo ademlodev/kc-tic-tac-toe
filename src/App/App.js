@@ -1,14 +1,9 @@
 import React from 'react';
-import { Provider as StoreProvider } from 'react-redux';
 import { Provider as StyleProvider } from 'rebass';
 import { injectGlobal } from 'styled-components';
 import { normalize } from 'polished';
 import theme from './theme';
 import { Header, Game } from '../layout';
-
-import store from '../store';
-
-//const { store } = storeObj;
 
 // eslint-disable-next-line
 injectGlobal`
@@ -18,13 +13,11 @@ injectGlobal`
 `;
 
 const App = () => (
-  <StoreProvider store={store}>
-    <StyleProvider theme={theme}>
-      <Header />
+  <StyleProvider theme={theme}>
+    <Header />
 
-      <Game />
-    </StyleProvider>
-  </StoreProvider>
+    <Game />
+  </StyleProvider>
 );
 
 export default App;

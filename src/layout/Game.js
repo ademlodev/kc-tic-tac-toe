@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react';
-import { Box, Button } from 'rebass';
-import styled from 'styled-components';
+import React from 'react';
+import { Box } from 'rebass';
 import { Board } from '../components';
 
 const Game = () => (

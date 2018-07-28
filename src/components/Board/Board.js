@@ -1,7 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Flex, Box, Button } from 'rebass';
 import Square from '../Square';
-import { connect } from 'react-redux';
 
 function calculateWinner(squares) {
   const lines = [
@@ -96,10 +95,3 @@ class Board extends React.Component {
 }
 
 export default Board;
-
-/* const mapStateToProps = state => ({
-  squares: state.board.squares,
-  xIsNext: state.board.xIsNext,
-});
-export default connect(mapStateToProps)(Board);
- */
