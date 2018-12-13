@@ -1,3 +1,5 @@
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jgarciaolmeda/kc-tic-tac-toe.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jgarciaolmeda/kc-tic-tac-toe/alerts/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
